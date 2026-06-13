@@ -6,7 +6,7 @@
 •   Miguel Angel Caballero Murcia
 
 🎯 Descripción
-es un aplicativo web pensado para estudiantes que tienen una incapacidad médica y no pueden asistir a clases presencialmente. El sistema les permite acceder a guías de aprendizaje actividades y material de apoyo desde casa para que puedan continuar con sus estudios y evitar el atraso aca-démico y la acumulación de trabajos.
+es un aplicativo web pensado para estudiantes que tienen una incapacidad médica y no pueden asistir a clases presencialmente. El sistema les permite acceder a guías de aprendizaje actividades y material de apoyo desde casa para que puedan continuar con sus estudios y evitar el atraso académico y la acumulación de trabajos.
 🧩 Problema
 Muchos estudiantes cuando presentan una incapacidad medica no pueden asistir a clases y termi-nan perdiendo información importante actividades y explicaciones de los docentes. Esto hace que se atrasen académicamente acumulen trabajos y sientan estrés cuando regresan nuevamente a la institución.
 
