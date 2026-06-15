@@ -4,22 +4,24 @@ body {
 }
 
 nav{
-width: 600px;
-        margin: auto;
-        padding: 30px;
-        border-radius: 20PX 20PX 20PX 20PX ;
-        background:rgb(0, 0, 0);
-        border:8px solid rgb(8, 145, 46);
-        box-shadow: 0px 6px 15px #08912E;
-        color: white;
-        text-align: center;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    border: 8px solid rgb(8, 145, 46);
+    box-shadow: 0px 6px 15px #08912E;
+    color: white;
+    text-align: center;
 }
 .info{
     background-color: #000000;
     border: 8px solid #148CCD;
     border-radius: 15px;
     padding: 25px;
-    width: 80%;
+    width: 90%;
+    max-width: 1200px;
     margin: 30px auto;
     box-shadow: 0 0 20px rgb(20, 140, 205);
     color: white;
@@ -41,12 +43,14 @@ width: 600px;
 
 .beneficios h2{
     font-size: 35px;
+
     margin-bottom: 15px;
 }
 
 .descripcion{
     max-width: 700px;
     margin: auto;
+    
     margin-bottom: 40px;
 }
 
@@ -141,4 +145,60 @@ width: 600px;
     box-shadow: 0 0 20px white;
 
 }
+
+/* RESPONSIVE */
+
+@media (max-width:768px){
+
+    nav{
+        width:90%;
+        padding:20px;
+    }
+
+    nav h1{
+        font-size:30px;
+    }
+
+    .info{
+        width:90%;
+        padding:20px;
+    }
+
+    .info h2{
+        font-size:24px;
+    }
+
+    .beneficios,
+    .docentes{
+        padding:25px 15px;
+        border-radius:25px;
+    }
+
+    .beneficios h2,
+    .docentes h2{
+        font-size:28px;
+    }
+
+    .descripcion,
+    .descripcion-docente{
+        width:100%;
+    }
+
+    .contenedor-beneficios,
+    .contenedor-docentes{
+        grid-template-columns:1fr;
+    }
+
+    .card,
+    .card-docente{
+        padding:20px;
+    }
+
+    .color{
+        text-align:center;
+        padding:30px 15px;
+    }
+
+}
+
 
