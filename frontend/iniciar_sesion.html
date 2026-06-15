@@ -1,37 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - APRENZY</title>
-    <link rel="stylesheet" href="css/style_sesion.css">
+
+    <link rel="stylesheet" href="CSS/style_sesion.css">
 </head>
+
 <body>
-     
-    <img src="img/logo footer.png" alt="logo">
 
-    <div class="login">
+    <nav>
 
-        <h1>APRENZY</h1>
-        <p>Bienvenido de nuevo</p>
-        <p>por favor ingresa tus datos de inicio de sesion si los haz olvidado <br>
-            presiona el boton de olvide mi clave
+        <img src="img/logo footer.png" alt="Logo APRENZY">
+
+    </nav>
+    <main>
+
+        <div class="login">
+
+            <h1>APRENZY</h1>
+
+            <p>Bienvenido de nuevo</p>
+
+            <p>
+                Por favor ingresa tus datos de inicio de sesión.
+                Si los has olvidado, presiona el botón
+                "¿Olvidaste tu contraseña?".
+            </p>
+
+            <form action="index.html">
+
+                <input
+                    type="email"
+                    placeholder="Correo electrónico"
+                    required
+                >
+
+                <input
+                    type="password"
+                    placeholder="Contraseña"
+                    required
+                >
+
+                <button type="submit">
+
+                    Iniciar Sesión
+
+                </button>
+
+            </form>
+
+            <a href="#">¿Olvidaste tu contraseña?</a>
+
+            <a href="Register.html">Registrarse</a>
+
+        </div>
+
+    </main>
+
+    <section class="informacion">
+
+        <p>
+            APRENZY permite que los estudiantes continúen su proceso
+            académico desde cualquier lugar, manteniendo una comunicación
+            constante con docentes y actividades disponibles de manera
+            virtual.
         </p>
 
-        <form action="index.html">
-            <input type="email" placeholder="Correo electrónico" required>
+    </section>
+    <footer>
 
-            <input type="password" placeholder="Contraseña" required>
+        <div class="footer-contenido">
 
-            <button type="submit">Iniciar Sesión</button>
-        </form>
+            <h2>APRENZY</h2>
 
-        <a href="#">¿Olvidaste tu contraseña?</a> 
-        <a href="Register.html">Regitrarse</a> 
+            <p>aprenzy@gmail.com</p>
 
-    </div>
+            <p>+57 300 000 0000</p>
+
+            <p>Colombia</p>
+
+            <p>© 2026 APRENZY</p>
+
+        </div>
+
+    </footer>
 
 </body>
+
 </html>
-
-
