@@ -1,113 +1,301 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
-    background: black;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background:black;
+    min-height:100vh;
+}
+
+nav{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding:20px;
+}
+
+nav img{
+    width:clamp(90px,10vw,140px);
+    padding:15px;
+    border-radius:50%;
+    border:6px solid #08912e;
+    box-shadow:0 0 20px #08912e;
+}
+
+/* MAIN */
+
+main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
 }
 
 .login{
-    background-color: rgb(0, 0, 0);
-    width: 900px;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0px 5px 20px rgb(20, 140, 205);
+
+    background-color:rgb(0,0,0);
+
+    width:100%;
+    max-width:900px;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0px 5px 20px rgb(20,140,205);
+
 }
 
-h1{
-    text-align: center;
-    color: #fffdfd;
-    margin-bottom: 15px;
+.login h1{
+
+    text-align:center;
+
+    color:#fffdfd;
+
+    margin-bottom:15px;
+
 }
 
-p:first-of-type{
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #ffffff;
+.login p:first-of-type{
+
+    text-align:center;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    margin-bottom:10px;
+
+    color:#ffffff;
+
 }
 
-p{
-    text-align: center;
-    color: #f8f8f8;
-    margin-bottom: 25px;
+.login p{
+
+    text-align:center;
+
+    color:#f8f8f8;
+
+    margin-bottom:25px;
+
+    line-height:1.5;
+
 }
 
 form{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    justify-content:center;
+
 }
 
 input{
-    width: 250px;
-    padding: 12px;
-    border: 2px solid #ffffff;
-    border-radius: 8px;
-    outline: none;
-}
 
+    width:250px;
+
+    padding:12px;
+
+    border:2px solid #ffffff;
+
+    border-radius:8px;
+
+    outline:none;
+
+}
 
 label{
-    width: 250px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #ffffff;
-}
 
-input[type="date"]{
-    width: 250px;
-}
+    width:250px;
 
-button{
-    width: 250px;
-    padding: 12px;
-    background-color: #148ccd;
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-}
+    font-size:14px;
 
-button:hover{
-    background-color: #052d6e;
-}
+    font-weight:bold;
 
-a{
-    display: block;
-    text-align: center;
-    margin-top: 20px;
-    text-decoration: none;
-    color: #0095f8;
-    font-weight: bold;
-}
+    color:#ffffff;
 
-a:hover{
-    color: #019b15;
 }
 
 .fecha{
-    display: flex;
-    flex-direction: column;
-    width: 250px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    width:250px;
+
 }
 
-img {
-    padding: 15px;
-    position: absolute;
-    left: 30px;
-    top: 20px;
-    border-radius: 50%;
-    border: 6px solid #08912e;
-    box-shadow: 0 0 20px #08912e;
+input[type="date"]{
+
+    width:250px;
+
 }
+
+button{
+
+    width:250px;
+
+    padding:12px;
+
+    background-color:#148ccd;
+
+    color:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    border:none;
+
+}
+
+button:hover{
+
+    background-color:#052d6e;
+
+}
+
+a{
+
+    display:block;
+
+    text-align:center;
+
+    margin-top:20px;
+
+    text-decoration:none;
+
+    color:#0095f8;
+
+    font-weight:bold;
+
+}
+a:hover{
+
+    color:#019b15;
+
+}
+.informacion{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:40px auto;
+
+    color:white;
+
+    text-align:center;
+
+    line-height:1.6;
+
+}
+
+footer{
+
+    margin-top:40px;
+
+    box-shadow:0 0 20px white;
+
+}
+
+.footer-contenido{
+
+    background:black;
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px 20px;
+
+}
+
+.footer-contenido h2{
+
+    margin-bottom:15px;
+
+}
+
+.footer-contenido p{
+
+    margin:8px 0;
+
+}
+
+@media(max-width:768px){
+
+    nav{
+
+        justify-content:center;
+
+        padding:20px 10px;
+
+    }
+
+    nav img{
+
+        width:90px;
+
+        padding:10px;
+
+        border-width:4px;
+
+    }
+
+    main{
+
+        padding:15px;
+
+    }
+
+    .login{
+
+        padding:25px;
+
+    }
+
+    form{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    input,
+    label,
+    .fecha,
+    input[type="date"],
+    button{
+
+        width:100%;
+        max-width:350px;
+
+    }
+
+    .informacion{
+
+        width:90%;
+        padding:0 10px;
+
+    }
+
+    .footer-contenido{
+
+        padding:30px 15px;
+
+    }
+
+}
+
