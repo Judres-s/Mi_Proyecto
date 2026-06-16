@@ -1,7 +1,7 @@
 def validarEdad(edad):
 
-    if edad < 0:
-        raise ValueError("La edad no puede ser negativa")
+    if edad < 8:
+        raise ValueError("La edad no puede ser menor de 8")
 
     return edad
 
