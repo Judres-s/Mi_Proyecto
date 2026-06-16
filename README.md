@@ -29,7 +29,60 @@ Frontend
 •	HTML5 / CSS3
 •	JavaScript
 Backend
+•   Python
 •	Node.js
-•	Express
 Base de Datos
 •	MySQL
+
+
+ Ejecutar Prototipos HTML
+
+Abrir cualquiera de los siguientes archivos en un navegador:
+index.html
+iniciar_sesion.html
+Register.html
+
+También pueden abrirse directamente haciendo doble clic sobre el archivo.
+
+ Ejecutar código Python
+
+Ubicarse en la carpeta backend
+Ejecutar en la terminal "python main.py"
+
+ Documentación
+
+La documentación del proyecto se encuentra en la carpeta "Docs"
+
+la carpeta incluye los siguientes documentos de todo el avance del proyecto: 
+
+01_Contexto
+02_Problema
+03_Requisitos
+04_Modelo_Datos
+05_Arquitectura
+Documento de Requisitos (SRS).
+Casos de Uso.
+Historias de Usuario.
+Control de Cambios.
+Actas de reunión quincenal.
+Evidencias Sincrónicas y Asincrónicas del avance del proyecto.
+Lista de chequeo para validación de requísitos.
+Plantilla extendida de casos de uso.
+
+
+ Diagramas
+
+Los diagramas del proyecto se encuentran dentro de la carpeta"Docs/Diagramas"
+
+Dentro de la carpeta se encuentran los siguientes diagramas:
+
+Diagrama de clases
+Figura 1. Diagrama de casos de Uso-Estudiante
+Figura 2. Diagrama de casos de Uso-Docente
+Figura 3. Diagrama de casos de Uso-Coordinador
+
+Estado del Proyecto
+
+Proyecto académico en fase de análisis, diseño y desarrollo de prototipos.
+
+Actualmente se encuentran implementadas las interfaces iniciales y la documentación de requisitos del sistema.
